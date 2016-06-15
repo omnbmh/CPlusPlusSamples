@@ -1,10 +1,6 @@
 //
 //  main.cpp
 //  homework
-//
-//  Created by 陈德志 on 16/6/13.
-//
-//
 
 #include <iostream>
 
@@ -71,7 +67,7 @@ void test04(){
     cin >> she;
     double hua = shetohua(she);
     cout << she << " degrees Celsius is "<< hua << " degrees Fahrenheit." << endl;
-    
+
 }
 
 double shetohua(double she){
@@ -84,7 +80,7 @@ void test05(){
     cin >> gn;
     double tw = gntotw(gn);
     cout << gn << " light years = " << tw << " astronomical units." << endl;
-    
+
 }
 
 double gntotw(double gn){
